@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Diri</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&display=swap" rel="stylesheet">
+
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+        }
+        body {
+            background: #1B1B25;
+            color: #fff;
+            font-family: 'Poppins', sans-serif;
+        }
+        .title {
+            display: flex;
+            /* background-color: black; */
+            align-items: center;
+            margin: 150px 0;
+        }
+
+        .title .content {
+            max-width: 1000px;
+            padding: 25px 80px;
+        }
+
+        .title .content h1 {
+            font-size: 50px;
+            font-weight: 700;
+            line-height: 1.2;
+        }
+
+        .title .content p {
+            margin-top: 24px;
+            font-size: 20px;
+            font-weight: 100;
+            line-height: 1.4;
+            color: #a4a4a4;
+        }
+
+        .title {
+            margin-top: 50px;
+            margin-bottom: 10px;
+            /* text-align: center; */
+        }
+
+        .title img{
+            max-height: 180px;
+            max-width: 180px;
+            margin-left: 80px;       
+        }
+
+        .sum {
+            padding: 10px 80px 24px;  
+            text-align: justify;
+        }
+
+        .sum h2 {
+            margin-bottom: 10px;
+        }
+
+        .sum p {
+           line-height: 1.3; 
+        }
+
+        .edu{
+            padding: 5px 80px;
+            padding-bottom: 50px;
+        }
+        .edu .its, .ukm, .xian {
+            display: flex;
+            align-items: center;
+            padding-bottom: 20px;
+        }
+        .edu img {
+            max-width: 120px;
+            max-height: 120px;
+        }
+
+        .edu h2 {
+            padding-bottom: 20px;;
+        }
+        .edu .text h4 {
+            font-size: 18px;
+            padding-left: 80px;
+            font-weight: 400;
+            color: #FFA3FD;
+        }
+
+        .edu .text p {
+            font-size: 15px;
+            padding-left: 80px;
+            font-weight: 600;
+        }
+
+        .edu .text span {
+            color: white;
+        }
+
+        .work {
+            padding-left: 80px;
+        }
+        .work h2 {
+            padding-bottom: 20px;;
+        }
+        .work .content ul {
+            font-size: 15px;
+            padding-left:  50px;
+            font-weight: 200;
+            color: white;
+        }
+
+        .work h4 {
+            /* color:rgb(253, 185, 39); */
+            color: #FFA3FD;
+        }
+
+        .work span{
+            color:white;
+        }
+
+        .work .content {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+        }
+
+        .work .content .lajur, .asdos, .rs, .apik {
+            /* display: grid;
+            grid-template-columns: auto auto; */
+            width: 500px;
+            padding: 10px;
+            border: 5px solid gray;
+            margin: 10px;
+        }
+
+        .other {
+            padding-left: 80px;
+        }
+
+        .other h2 {
+            padding-bottom: 20px;
+        }
+
+        .other .row{
+            display: flex;
+        }
+
+        .other .row .column {
+            flex: 50%;
+            padding: 5px;
+        }
+        
+        .other img {
+            max-width: 85%;
+        }
+
+        .contact {
+            padding: 100px 10% 24px;
+            text-align: center;
+        }
+
+        .contact h3{
+            text-align: center;
+            font-size: 35px;
+            margin-bottom: 50px;
+        }
+
+        .contact .content {
+            margin-bottom: 100px;
+        }
+
+        .contact .content a {
+            color: white;
+            margin: 0 50px;
+        }
+
+        .contact .content a:hover {
+            color: rgb(255, 16, 240);
+        }
+
+        .contact .content .icon {
+            width: 36px;
+            height: 36px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="title">
+        <img src="foto.png" alt="foto">
+        <div class="content">
+            <p>Hi, I'm</p>
+            <h1>Nadya Permata Sari</h1>
+            <p>📍Surabaya, Indonesia</p>
+        </div>
+    </div><br>
+
+    <div class="sum">
+        <h2>Profile Summary</h2>
+        <p>A third-year informatics student who has extensive programming and computation experience with a splendid academic performance (GPA 3.95/4.00), along with various achievements in national programming and computational competitions. Known as an individual with high commitment and proven background in multiple areas, including social media marketing and mathematics.</p>
+    </div><br>
+
+    <div class="edu">
+        <h2>Educations</h2>
+
+        <!-- <h3>Educations</h3> -->
+        
+        <div class="its">
+            <img src="its.png" alt="its">
+            <div class="text">
+                <h4>Sepuluh Nopember Institute of Technology – Surabaya, Indonesia <span>(2020-present)</span></h4><br>
+                <p>
+                    Bachelor’s degree in Informatics <br>
+                    GPA: 3.95 out of 4.00 <br>
+                    Relevant Course: Artificial Intelligence, Design and Analysis Algorithms, Database Systems <br>
+                    TOEFL ITP 563/677; TEFL 603/677; DET 125/160 <br><br>
+                </p>
+            </div>
+
+        </div>
+        <div class="ukm">
+            <img src="ukm.png" alt="ukm">
+            <div class="text">
+                <h4>The National University of Malaysia – Selangor, Malaysia <span>(October 2022-February 2023)</span>	</h4><br>
+                <p>
+                    Bachelor of Information Technology <br>
+                    Relevant Course: Data Engineering, Web Searching & Recommender System <br><br>
+                </p>
+            </div>
+
+        </div>
+        <div class="xian">
+            <img src="xian.png" alt="xian">
+            <div class="text">
+                <h4>Xi'an Jiaotong University – Xi’an, China	<span>(13 July 2022-19 July 2022)</span></h4><br>
+                <p>
+                    Take part in sharing sessions with students from Xi'an Jiaotong while learning about Chinese arts and culture<br><br></p>
+
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="work">
+        <h2>Work Experiences</h2>
+
+        <div class="content">
+            <div class="lajur">
+                <h4>Kelas Lajur OSN – Surabaya, Indonesia <br><span>(March 2021 – October 2022)</span></h4>
+                <h5>Tutor</h5> 	
+                <ul>
+                    <li>Mathematics and Computer tutor for the preparation of Olimpiade Sains Nasional, a competition organized by the National Achievement Center (Puspresnas) Ministry of Education and Culture (Kemendikbud).</li>
+                    <li>Produced 30 questions monthly tryouts while developing ten modules for the student's handbook.</li>
+                    <li>Mentored 10+ students from SMA Darul Ulum 1 Jombang and SMAN 5 Surabaya. </li>
+                </ul>	             
+            </div><br>
+            <div class="asdos">
+                <h4>Institut Teknologi Sepuluh Nopember – Surabaya, Indonesia <span>(September 2021 – June 2022)</span></h4>
+                <h5>Teaching Assistant</h5> 	
+                <ul>
+                    <li>Taught students in Programming Algorithm and Fundamentals of Programming courses.</li>
+                    <li>Handle a class of respectively 39+ students.</li>
+                </ul>	             
+            </div><br>
+            <div class="rs">
+                <h4>RuangSains – Surabaya, Indonesia <br><span>(February 2021 – October 2022)</span></h4>
+                <h5>Brand Ambassador</h5> 	
+                <ul>
+                    <li>Influenced customers by promoting special offers and beneficial deals.</li>
+                    <li>Achieved a total of 202 students using the promoted referral code.</li>
+                </ul>	             
+            </div><br>
+            <div class="apik">
+                <h4>Apik Data Science – Surabaya, Indonesia <br><span> (May 2021 – August 2021)</span></h4>
+                <h5>Brand Ambassador</h5> 	
+                <ul>
+                    <li>Made seven TikTok videos about data science with a total of 1448 views and 116 likes.</li>
+                    <li>Designed weekly content on Apik Data Science’s social media in order to educate the audience about data science. </li>
+                </ul>	             
+            </div>			        	    
+        </div>
+   
+    </div>
+
+    <!-- <div class="org">
+        <h3>Organizations</h3>
+        UKAFO ITS – Surabaya, Indonesia
+Vice-Chairman	 (January 2022 – January 2023)
+●	Supervised 40 UKAFO ITS work programs during a year management period.
+●	Selected as the speaker of the Upgrading Session.
+●	Responsible as the acting chairman for 2 months, supervising, reviewing, and initiating the organization’s strategic planning.
+Treasurer 		(January 2021 – January 2022)
+●	Coordinated and collected finances for UKAFO ITS.
+●	Arranged and was accountable for the finances used by 7 divisions in UKAFO.
+HMTC – Surabaya, Indonesia						  (February 2022 – January 2023)
+Internal Staff 
+●	Planned an after-event graduation ceremony for 151 ITS Informatics graduates.
+●	Carried out various events, which were held for four batches of Informatics Engineering students.
+●	In charge of the “TCare” program that aims to aid students in adversity.
+Schematics – Surabaya, Indonesia
+Public Relations Expert Staff	(March 2022 – January 2023)
+●	Promote the event through social media and face-to-face promotion, such as visiting schools, campuses, tourist attractions, and cafes.
+●	Controlled the official TikTok account of Schematics (@schematics.its).
+●	Provided content ideas for 42 videos posted on the TikTok Schematics account, which gained 16.500+ views and 11.700+ likes.
+Event Staff		(June 2021 – January 2022)
+●	Made six TikTok videos that covered a logical problem quiz which gained 3535 views and 410 likes.
+●	Created 21 logic and mathematics questions for National Logic Competition 2021.
+ITS Google Developer Student Club – Surabaya, Indonesia
+Member		(October 2021 – September 2022)
+●	Communicated and elaborated ideas about technology with 800+ other members.
+●	Attended 5+ training events held by the ITS Google Developer Student Club Chapter.
+Competitive Programming Informatics Community – Surabaya, Indonesia
+Chairman		(June 2021 – December 2021)
+●	Organized free boot camps and weekly classes to learn Competitive Programming which attended by 50 participants.
+●	Directed a Competitive Programming contest that participated by 56 participants.
+    </div> -->
+    <!-- <br>
+    <div class="award">
+        <h2>Honors/Awards</h2>
+
+    </div> -->
+    <br>
+    <div class="other">
+        <h2>Others</h2>
+        <div class="row">
+            <div class="column">
+                <img src="abmas.jpg" alt="abmas">
+            </div>
+            <div class="column">
+                <img src="ppdb.jpg" alt="ppdb">
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="skill">
+        <h3>Skills</h3>
+    </div> -->
+
+    <div class="contact">
+        <h3>Contacts</h3>
+        <div class="content">
+            <a href="https://www.instagram.com/nadyapermaata/">
+                <i class="icon" data-feather="instagram"></i>
+            </a>
+            <a href="https://github.com/nadyapermaata">
+                <i class="icon" data-feather="github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/nadyapermata">
+                <i class="icon" data-feather="linkedin"></i>
+            </a>
+            <a href="mailto:nadyapermata15@gmail.com">
+                <i class="icon" data-feather="mail"></i>
+            </a>
+        </div>        
+    </div>
+
+    
+    <script>
+        feather.replace()
+    </script>
+</body>
+</html>
